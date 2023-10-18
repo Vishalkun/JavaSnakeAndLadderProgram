@@ -18,6 +18,6 @@ public class SinglePlayer
 		SinglePlayer sp = new SinglePlayer();
 		
 		sp.board();
-			}
+	}
 
 }
