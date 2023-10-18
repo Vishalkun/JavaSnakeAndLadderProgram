@@ -58,7 +58,8 @@ public class PlayerChecksForNoPlay {
             return 0;
         }
 
-    }  public int check_play()
+    } 
+    public int check_play()
     {
         int check = random.nextInt(1,7);
         return check;
@@ -70,12 +71,6 @@ public class PlayerChecksForNoPlay {
         start();
 
     }
-
-	
-     
-		
-	
-	
 	public static void main(String[] args) {
 		PlayerChecksForNoPlay p = new PlayerChecksForNoPlay();
 		p.Board();
